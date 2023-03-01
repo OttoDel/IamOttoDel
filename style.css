@@ -1,0 +1,52 @@
+
+
+
+
+p {
+    border: 15px solid pink
+}
+
+.bigTitle{ /*Requirement-2.C*/
+    font-size: 100px;
+    text-decoration: underline;
+    font-family: cursive;
+    color: darkgoldenrod
+    
+    
+}
+
+#guaclist{  /* Requirement-2.B*/
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorange
+}
+
+#idselector  /* Requirement-2.D */
+{
+    font-size: 40px;
+}
+
+a:hover /* Requirement-2.E */
+{
+color: hotpink;
+text-decoration: underline;
+}
+
+
+h2{   /*Requirement-2.A*/
+    font-size: 60px;
+    font-family: cursive;
+    color:darkorange
+    
+
+}
+
+body{
+background-color: paleturquoise;
+}
+
+.my-element { padding: 10px 20px; 
+ margin: 10 auto;}
+
+
+
