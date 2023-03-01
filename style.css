@@ -21,6 +21,13 @@ p {
     color: darkorange
 }
 
+#favsong
+{
+text-decoration: underline;
+border: 15px solid pink
+}
+
+
 #idselector  /* Requirement-2.D */
 {
     font-size: 40px;
