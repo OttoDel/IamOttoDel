@@ -1,59 +1,75 @@
-
-
-
-
-p {
-    border: 15px solid pink
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap; 
 }
 
-.bigTitle{ /*Requirement-2.C*/
-    font-size: 100px;
-    text-decoration: underline;
-    font-family: cursive;
-    color: darkgoldenrod
-    
-    
+#MyTitle {
+	background-color: rgb(207, 104, 228);
+	color : gold;
+	padding: 20px;
+	text-align: center;
+	flex-basis: 100%; 
 }
 
-#guaclist{  /* Requirement-2.B*/
-    font-size: 35px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkorange
+.set {
+	flex-basis: 25%; 
+	box-sizing: border-box;
 }
 
-#favsong
-{
-text-decoration: underline;
-border: 15px solid pink
+.set h1 {
+	margin: 0;
+	padding: 10px;
+	background-color: rgb(155, 27, 167);
+	color: gold;
+	text-align: center;
+	font-weight: bold;
 }
 
-
-#idselector  /* Requirement-2.D */
-{
-    font-size: 40px;
+.set ul {
+	margin: 0;
+	padding: 30;
+	list-style-type: none;
 }
 
-a:hover /* Requirement-2.E */
-{
-color: hotpink;
-text-decoration: underline;
-}
-
-
-h2{   /*Requirement-2.A*/
-    font-size: 60px;
-    font-family: cursive;
-    color:darkorange
-    
+.set li {
+	width: 150px;
+	height: 40px;
+	background-color: rgb(155, 27, 167);
+	border: 10px solid rgb(207, 104, 228);
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	line-height: 40px;
+	transition: background-color 0.3s ease-in-out;
 
 }
 
-body{
-background-color: paleturquoise;
+.set li:hover {
+	background-color: gold;
+	color: rgb(229, 11, 245);
+	font-weight: bolder;
+	font-family: cursive;
 }
 
-.my-element { padding: 10px 20px; 
- margin: 0 auto;}
+#MyFoot {
+	background-color: rgb(207, 104, 228);
+	color: gold;
+	padding: 20px;
+	text-align: center;
+	flex-basis: 100%;
+	font-weight: bolder;
+}
 
+@media screen and (max-width: 800px) {
+	.set {
+		flex-basis: 50%; 
+	}
+}
 
-
+@media screen and (max-width: 600px) {
+	.set {
+		flex-basis: 100%; /* This took forever single stack*/
+	}
+}
